@@ -16,7 +16,7 @@ int k = removeDuplicates(nums); // Calls your implementation
 assert k == expectedNums.length;
 
 for (int i = 0; i < k; i++) </br>{
-    </br>\tassert nums[i] == expectedNums[i];
+    </br>&nbsp&nbsp&nbsp&nbspassert nums[i] == expectedNums[i];
 </br>}
 
 If all assertions pass, then your solution will be accepted.
